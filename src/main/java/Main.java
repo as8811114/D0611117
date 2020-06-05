@@ -14,12 +14,12 @@ public class Main {
 		Arrays.sort(edges);
 		
 		if(edges[0] + edges[1] <= edges[2])
-			throw new Exception("無法生成三角形");
+			throw new Exception("not a triangle");
 		if(edges[0] == edges[1] && edges[1] == edges[2])
-			return "正三角形";
+			return "A triangle";
 		else if(edges[0] == edges[1] || edges[1] == edges[2])
-			return "等腰三角形";
+			return "B triangle";
 		else
-			return "一般三角形";
+			return "C triangle";
 	}
 }

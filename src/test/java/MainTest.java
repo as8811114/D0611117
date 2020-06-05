@@ -30,7 +30,7 @@ public class MainTest {
 		Main a = new Main();
 		try
 		{
-			assertEquals("等腰三角形",a.triangleType(1,3,3));
+			assertEquals("B triangle",a.triangleType(1,3,3));
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
