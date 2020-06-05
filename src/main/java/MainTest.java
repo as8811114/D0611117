@@ -1,6 +1,5 @@
 package main.java;
 
-
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
@@ -8,6 +7,7 @@ import java.util.Arrays;
 import org.junit.Test;
 
 import junit.framework.Assert;
+
 public class MainTest {
 
 	@Test(expected = Exception.class)
@@ -30,10 +30,11 @@ public class MainTest {
 		Main a = new Main();
 		try
 		{
-			assertEquals("ç­‰è…°ä¸‰è§’å½¢",a.triangleType(1,3,3));
+
+			assertEquals("µ¥¸y¤T¨¤§Î",a.triangleType(1,3,3));
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-
+	
 	}
 }
