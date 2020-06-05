@@ -1,18 +1,14 @@
-plugins
-{
+plugins{
 	id "java"
 }
 
 javadoc.options.encoding = 'UTF-8'
 compileJava.options.encoding = 'UTF-8'
 
-repositories 
-{
+repositories {
 	mavenCentral()
 }
 
-dependencies
-{
-	compile 'commons-codec:commons-codec:1.8'
+dependencies {
 	testImplementation 'junit:junit:4.+'
 }
